@@ -1,0 +1,87 @@
+html,
+body {
+    background-color: var(--base);
+    color: var(--text);
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+body>* {
+    overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    height: 20%;
+    max-height: 100px;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group>.btn {
+    font-size: 1rem;
+}
+
+.btn .ph {
+    margin-right: 4px;
+}
+
+section {
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form>* {
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+code {
+    background-color: var(--crust);
+    color: var(--white);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+
+#checkboxes>div {
+    display: flex;
+    flex-direction: column;
+}
+
+#checkboxes>div>label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
